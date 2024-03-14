@@ -1,0 +1,30 @@
+body
+{
+    background-color: #000;
+    color: #fff;
+}
+button{
+    border: none;
+    padding: 10px 32px;
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+    margin: 2rem;
+  cursor: pointer;
+}
+li{
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin: 2rem 0rem;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    
+}
+li:hover{
+    background-color: rgb(41, 37, 37);
+    transform: scale(1.1);
+}
